@@ -1,0 +1,17 @@
+name: schedule
+
+on:
+  schedule:
+    - cron: "30 4 * * *"
+
+jobs:
+   schedule:
+     runs-on: ubuntu-latest
+
+     steps:
+       - name: schedule action workflow
+         run: echo "schedule action workflow by me"
+         
+
+     
+    
